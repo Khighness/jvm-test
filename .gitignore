@@ -1,12 +1,12 @@
 ### Java
-
 /target/
 *.class
 *.log
-
+**/mvnw
+**/mvnw.cmd
+**/.mvn
 
 ### STS
-
 .apt_generated
 .classpath
 .factorypath
@@ -15,18 +15,14 @@
 .springBeans
 .sts4-cache
 
-
 ### IntelliJ IDEA
-
-.idea/
+.idea
 .out
 *.iws
 *.iml
 *.ipr
 
-
 ### NetBeans
-
 /nbproject/private/
 /build/
 /nbbuild/

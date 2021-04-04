@@ -9,6 +9,22 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.junit.jupiter</groupId>
+                <artifactId>junit-jupiter</artifactId>
+                <version>RELEASE</version>
+                <scope>compile</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.openjdk.jol</groupId>
+                <artifactId>jol-core</artifactId>
+                <version>0.10</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
     <build>
         <plugins>
             <plugin>
@@ -30,7 +46,15 @@
         <module>chapter05</module>
         <module>chapter04</module>
         <module>chapter06</module>
+        <module>chapter07</module>
         <module>chapter08</module>
+        <module>chapter09</module>
+        <module>chapter10</module>
+        <module>chapter12</module>
+        <module>chapter13</module>
+        <module>chapter15</module>
+        <module>chapter16</module>
+        <module>chapter17</module>
     </modules>
 
 </project>
